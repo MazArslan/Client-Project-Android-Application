@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">UpdatePharmacyApp</string>
+    <string name="pharmacy_name">Pharmacy Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="pincode">PinCode</string>
+    <string name="serverUrl">http://127.0.0.1:5000/</string>
+    <string name="can_services_be_provided_in_welsh">Can services be provided in welsh?</string>
+    <string name="available_additional_services">Available Additional Services</string>
+    <string name="update_pharmacy">Update Pharmacy</string>
+    <string-array name="options">
+        <item>ALCOHOL_ADVICE</item>
+        <item>CARER_SUPPORT</item>
+        <item>CHLAMYDIA_SCREENING_SERVICE</item>
+        <item>CONDOM_SUPPLY_SERVICE</item>
+        <item>EMERGENCY_HORMONAL_CONTRACEPTION_SERVICE</item>
+        <item>EMERGENCY_PRESCRIPTION_MEDICINES</item>
+        <item>FLU_VACCINATION_SERVICE</item>
+        <item>INDEPENDENT_PRESCRIBING</item>
+        <item>MEDICINE_USE_REVIEW</item>
+        <item>MINOR_AILMENT_SERVICE</item>
+        <item>NEEDLE_EXCHANGE_SERVICE</item>
+        <item>NEW_MEDICINE_SERVICE</item>
+        <item>NHS_HEALTH_CHECK</item>
+        <item>PREGNANCY_TESTING</item>
+        <item>STOP_SMOKING_SERVICE</item>
+        <item>STOP_SMOKING_VOUCHER_SERVICE</item>
+        <item>SUPERVISED_MEDICINE_CONSUMPTION</item>
+        <item>WEIGHT_MANAGEMENT_SERVICE</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delete Service</title>
+    <script type="text/javascript" src="/static/js/handleRequests.js"></script>
+</head>
+
+<body>
+<a href="/">Home page</a>
+<br>
+<br>
+
+<h1>Delete service</h1>
+<form name="addService" onsubmit="return submitDeleteServiceForm()">
+    <label for="name"><b>Service name: </b></label>
+    <input type="text" placeholder="Enter service name" name="name" id="name" required>
+    <br>
+    <br>
+    <label for="welshName"><b>Service name in Welsh: </b></label>
+    <input type="text" placeholder="Enter service name in welsh" name="welshName" id="welshName" required>
+    <br>
+    <br>
+    <label for="pincode"><b>Pincode:</b></label>
+    <br>
+    <input type="password" placeholder="Enter pincode" name="pincode" id="pincode" required>
+    <br>
+    <br>
+    <input type="submit" value="Delete service" name="submit">
+</form>
+<span id="response"></span>
+</body>
+</html>
